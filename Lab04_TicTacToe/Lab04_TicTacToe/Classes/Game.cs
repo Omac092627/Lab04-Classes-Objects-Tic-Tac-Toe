@@ -31,7 +31,7 @@ namespace Lab04_TicTacToe.Classes
 		public Player Play()
 		{
 
-			//TODO: Complete this method and utilize the rest of the class structure to play the game.
+            //TODO: Complete this method and utilize the rest of the class structure to play the game.
 
             /*
              * Complete this method by constructing the logic for the actual playing of Tic Tac Toe. 
@@ -47,6 +47,28 @@ namespace Lab04_TicTacToe.Classes
 
             Use any and all pre-existing methods in this program to help construct the method logic. 
              */
+
+            while (Winner == null)
+            {
+				Board.DisplayBoard();
+
+                if (PlayerOne.IsTurn == false)
+                {
+					PlayerOne.TakeTurn(Board);
+                }
+				else
+                {
+					PlayerTwo.TakeTurn(Board);
+					SwitchPlayer();
+                }
+                CheckForWinner(Board);
+
+            }
+
+            
+
+			return Winner;
+
 		}
 
 
@@ -57,6 +79,8 @@ namespace Lab04_TicTacToe.Classes
 		/// <returns>if winner exists</returns>
 		public bool CheckForWinner(Board board)
 		{
+			bool boolean = false;
+
 			int[][] winners = new int[][]
 			{
 				new[] {1,2,3},
@@ -83,10 +107,16 @@ namespace Lab04_TicTacToe.Classes
 				string c = Board.GameBoard[p3.Row, p3.Column];
 
 				// TODO:  Determine a winner has been reached. 
-				// return true if a winner has been reached. 
-			
+				// return true if a winner has been reached.
+				while (boolean = false)
+                {
+                    if ((a == b) && (b == c) && (a == c))
+                    {
+						boolean = true;
+						return true;
+                    }
+                }
 			}
-
 			return false;
 		}
 
@@ -107,10 +137,7 @@ namespace Lab04_TicTacToe.Classes
 		{
 			if (PlayerOne.IsTurn)
 			{
-              
 				PlayerOne.IsTurn = false;
-
-              
 				PlayerTwo.IsTurn = true;
 			}
 			else
