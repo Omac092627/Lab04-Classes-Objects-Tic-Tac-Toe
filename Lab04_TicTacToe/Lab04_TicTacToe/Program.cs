@@ -37,8 +37,19 @@ namespace Lab04_TicTacToe
             Game newGame = new Game(playerOne, playerTwo);
 
             Player winner = newGame.Play();
+
+
+            if (!(winner is null))
+            {
+                Console.WriteLine($"{winner.Name} Wins!");
+            }
+            else
+            {
+                Console.WriteLine("It's a draw!");
+            }
         }
-
-
     }
+
+
 }
+

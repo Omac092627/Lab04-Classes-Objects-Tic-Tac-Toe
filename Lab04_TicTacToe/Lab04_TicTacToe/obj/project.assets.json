@@ -207,6 +207,21 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "NUnit/3.12.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/nunit.framework.dll": {}
+        },
+        "build": {
+          "build/NUnit.props": {}
+        }
       }
     }
   },
@@ -681,31 +696,62 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "NUnit/3.12.0": {
+      "sha512": "3oJTrcUcT9wmweBUwgUf0f1XIYy6RZq2ziV+RM95HMKAJGsHPN2i3MKK1dAPvDPMRLz799Llj4eyu/STB9Q7OA==",
+      "type": "package",
+      "path": "nunit/3.12.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGES.md",
+        "LICENSE.txt",
+        "NOTICES.txt",
+        "build/NUnit.props",
+        "lib/net35/nunit.framework.dll",
+        "lib/net35/nunit.framework.pdb",
+        "lib/net35/nunit.framework.xml",
+        "lib/net40/nunit.framework.dll",
+        "lib/net40/nunit.framework.pdb",
+        "lib/net40/nunit.framework.xml",
+        "lib/net45/nunit.framework.dll",
+        "lib/net45/nunit.framework.pdb",
+        "lib/net45/nunit.framework.xml",
+        "lib/netstandard1.4/nunit.framework.dll",
+        "lib/netstandard1.4/nunit.framework.pdb",
+        "lib/netstandard1.4/nunit.framework.xml",
+        "lib/netstandard2.0/nunit.framework.dll",
+        "lib/netstandard2.0/nunit.framework.pdb",
+        "lib/netstandard2.0/nunit.framework.xml",
+        "nunit.3.12.0.nupkg.sha512",
+        "nunit.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "Microsoft.NETCore.App >= 2.1.0"
+      "Microsoft.NETCore.App >= 2.1.0",
+      "NUnit >= 3.12.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mkref\\.nuget\\packages\\": {},
+    "C:\\Users\\oogun\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mkref\\source\\repos\\Lab04-Classes-Objects-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\Lab04_TicTacToe.csproj",
+      "projectUniqueName": "C:\\Users\\oogun\\Source\\Repos\\Omac092627\\Lab04-Classes-Objects-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\Lab04_TicTacToe.csproj",
       "projectName": "Lab04_TicTacToe",
-      "projectPath": "C:\\Users\\mkref\\source\\repos\\Lab04-Classes-Objects-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\Lab04_TicTacToe.csproj",
-      "packagesPath": "C:\\Users\\mkref\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mkref\\source\\repos\\Lab04-Classes-Objects-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\obj\\",
+      "projectPath": "C:\\Users\\oogun\\Source\\Repos\\Omac092627\\Lab04-Classes-Objects-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\Lab04_TicTacToe.csproj",
+      "packagesPath": "C:\\Users\\oogun\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\oogun\\Source\\Repos\\Omac092627\\Lab04-Classes-Objects-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\mkref\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\oogun\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -735,6 +781,10 @@
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
+          },
+          "NUnit": {
+            "target": "Package",
+            "version": "[3.12.0, )"
           }
         },
         "imports": [
