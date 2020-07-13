@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mkref\\source\\repos\\Lab04-Classes-Objects-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\Lab04_TicTacToe.csproj": {}
+    "C:\\Users\\oogun\\Source\\Repos\\Omac092627\\Lab04-Classes-Objects-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\Lab04_TicTacToe.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mkref\\source\\repos\\Lab04-Classes-Objects-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\Lab04_TicTacToe.csproj": {
+    "C:\\Users\\oogun\\Source\\Repos\\Omac092627\\Lab04-Classes-Objects-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\Lab04_TicTacToe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mkref\\source\\repos\\Lab04-Classes-Objects-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\Lab04_TicTacToe.csproj",
+        "projectUniqueName": "C:\\Users\\oogun\\Source\\Repos\\Omac092627\\Lab04-Classes-Objects-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\Lab04_TicTacToe.csproj",
         "projectName": "Lab04_TicTacToe",
-        "projectPath": "C:\\Users\\mkref\\source\\repos\\Lab04-Classes-Objects-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\Lab04_TicTacToe.csproj",
-        "packagesPath": "C:\\Users\\mkref\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mkref\\source\\repos\\Lab04-Classes-Objects-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\obj\\",
+        "projectPath": "C:\\Users\\oogun\\Source\\Repos\\Omac092627\\Lab04-Classes-Objects-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\Lab04_TicTacToe.csproj",
+        "packagesPath": "C:\\Users\\oogun\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\oogun\\Source\\Repos\\Omac092627\\Lab04-Classes-Objects-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\mkref\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\oogun\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -47,6 +47,10 @@
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
             }
           },
           "imports": [
