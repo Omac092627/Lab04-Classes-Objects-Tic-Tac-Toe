@@ -3,7 +3,7 @@ using System;
 
 namespace Lab04_TicTacToe
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -26,13 +26,22 @@ namespace Lab04_TicTacToe
 
         static void InstantiateGame(string p1, string p2)
         {
-            Player playerOne = new Player();
-            playerOne.Name = p1;
-            playerOne.Marker = "X";
+            Player playerOne = new Player()
+            {
+                Name = p1,
+                Marker = "X",
+                IsTurn = true
 
-            Player playerTwo = new Player();
-            playerTwo.Name = p2;
-            playerTwo.Marker = "O";
+            };
+
+            Player playerTwo = new Player()
+            {
+                Name = p2,
+                Marker = "O",
+                IsTurn = false
+
+            };
+            Console.Clear();
 
             Game newGame = new Game(playerOne, playerTwo);
 
