@@ -15,7 +15,7 @@ This is a C# console application that is a two (2) person, turn based Tic-Tac-To
 Clone this repository to your local machine.
 
 ```
-$ git clone https://github.com/MRefvem/Lab04-Classes-Objects-Tic-Tac-Toe.git
+$ git clone 
 ```
 
 ### To run the program from Visual Studio:
