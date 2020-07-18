@@ -24,6 +24,13 @@ namespace Lab04_TicTacToe
 
         }
 
+        /// <summary>
+        /// Method to test the player and also determine which players using what character
+        /// Determine a winner
+        /// Determine a draw
+        /// </summary>
+        /// <param name="p1"></param>
+        /// <param name="p2"></param>
         static void InstantiateGame(string p1, string p2)
         {
             Player playerOne = new Player()
