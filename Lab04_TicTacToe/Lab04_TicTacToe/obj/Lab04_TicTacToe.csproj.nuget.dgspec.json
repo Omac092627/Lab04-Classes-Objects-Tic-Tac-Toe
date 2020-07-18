@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oogun\\Source\\Repos\\Omac092627\\Lab04-Classes-Objects-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\Lab04_TicTacToe.csproj": {}
+    "C:\\Users\\oogun\\source\\repos\\Omac092627\\Lab04-Classes-Objects-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\Lab04_TicTacToe.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oogun\\Source\\Repos\\Omac092627\\Lab04-Classes-Objects-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\Lab04_TicTacToe.csproj": {
+    "C:\\Users\\oogun\\source\\repos\\Omac092627\\Lab04-Classes-Objects-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\Lab04_TicTacToe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oogun\\Source\\Repos\\Omac092627\\Lab04-Classes-Objects-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\Lab04_TicTacToe.csproj",
+        "projectUniqueName": "C:\\Users\\oogun\\source\\repos\\Omac092627\\Lab04-Classes-Objects-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\Lab04_TicTacToe.csproj",
         "projectName": "Lab04_TicTacToe",
-        "projectPath": "C:\\Users\\oogun\\Source\\Repos\\Omac092627\\Lab04-Classes-Objects-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\Lab04_TicTacToe.csproj",
+        "projectPath": "C:\\Users\\oogun\\source\\repos\\Omac092627\\Lab04-Classes-Objects-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\Lab04_TicTacToe.csproj",
         "packagesPath": "C:\\Users\\oogun\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oogun\\Source\\Repos\\Omac092627\\Lab04-Classes-Objects-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\obj\\",
+        "outputPath": "C:\\Users\\oogun\\source\\repos\\Omac092627\\Lab04-Classes-Objects-Tic-Tac-Toe\\Lab04_TicTacToe\\Lab04_TicTacToe\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
