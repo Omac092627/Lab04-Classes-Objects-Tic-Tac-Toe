@@ -35,7 +35,7 @@ Then select and open ```StarterCode.sln```
 
 1. PROMPT THE USERS TO ENTER THEIR NAMES
 
-![Prompt User](../Assets/images/PromptUserNameTicTac.PNG)
+![Prompt User](Lab04_TicTacToe/Assets/images/PromptUserNameTicTac.PNG)
 
 
 
