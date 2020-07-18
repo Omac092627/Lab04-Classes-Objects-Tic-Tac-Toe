@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Lab04_TicTacToe",
-    "\\Lab04_TicTacToe\\Lab04_TicTacToe"
+    "\\Lab04_TicTacToe\\Assets",
+    "\\Lab04_TicTacToe\\Lab04_TicTacToe",
+    "\\Lab04_TicTacToe\\Lab04_TicTacToe\\Classes"
   ],
-  "SelectedNode": "\\Lab04_TicTacToe\\Lab04_TicTacToe\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
