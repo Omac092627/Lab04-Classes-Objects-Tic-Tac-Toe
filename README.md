@@ -35,7 +35,7 @@ Then select and open ```StarterCode.sln```
 
 1. PROMPT THE USERS TO ENTER THEIR NAMES
 
-![Prompt User](Assets/images/PromptUserNameTicTac.PNG)
+![Prompt User](../Assets/images/PromptUserNameTicTac.PNG)
 
 
 
@@ -43,10 +43,10 @@ Then select and open ```StarterCode.sln```
 
 2. HAVE THE USERS SWITCH OFF BY TAKING TURNS
 
-![Image 2](Assets/images/switchUsersOff.PNG)
+![Image 2](/Assets/images/switchUsersOff.PNG)
 
 
-![Image 2](Assets/images/switchUsersOffAgain.PNG)
+![Image 2](../Assets/images/switchUsersOffAgain.PNG)
 
 
 
@@ -54,13 +54,13 @@ Then select and open ```StarterCode.sln```
 
 3. DECLARE A WINNER
 
-![Image 3](Assets/images/winnerTicTac.PNG)
+![Image 3](../Assets/images/winnerTicTac.PNG)
 
 
 4. OR DECLARE A DRAW
 
 
-![Image 3](Assets/images/drawTicTac.PNG)
+![Image 3](/Assets/images/drawTicTac.PNG)
 
 
 
